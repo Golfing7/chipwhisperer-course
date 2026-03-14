@@ -1,0 +1,32 @@
+name: cw-course
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - setuptools
+  - wheel
+
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - ipywidgets
+
+  # Scientific stack
+  - numpy<=1.26.4
+  - matplotlib
+  - pandas
+  - tqdm
+
+  # Helpful USB / Serial tooling available through conda
+  - pyserial
+  - libusb
+  - pyusb
+  - cython
+  - pip:
+      - chipwhisperer
+      - fastdtw
+      - configobj
+      - ecpy
+      - libusb1
+      - packaging

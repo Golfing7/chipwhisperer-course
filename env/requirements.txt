@@ -1,0 +1,28 @@
+# Core notebook environment
+pip
+setuptools
+wheel
+
+# Jupyter
+jupyterlab
+notebook
+ipywidgets
+
+# Scientific stack
+numpy<=1.26.4
+matplotlib
+pandas
+tqdm
+
+# ChipWhisperer + common runtime deps
+chipwhisperer
+pyserial
+libusb1
+pyusb
+cython
+fastdtw
+configobj
+ecpy
+
+# Helpful utilities
+packaging
