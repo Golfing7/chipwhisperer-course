@@ -13,6 +13,7 @@ numpy<=1.26.4
 matplotlib
 pandas
 tqdm
+pycryptodome
 
 # ChipWhisperer + common runtime deps
 chipwhisperer
