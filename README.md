@@ -62,6 +62,10 @@ Install before starting:
 git clone --recurse-submodules -j8 https://github.com/gribelUS/chipwhisperer-course.git
 cd chipwhisperer-course
 ```
+If you have already cloned the repository but do not have the submodules:
+```
+git submodule update --init --recursive
+```
 
 ---
 
